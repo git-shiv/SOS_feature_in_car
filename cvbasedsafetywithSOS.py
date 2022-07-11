@@ -138,7 +138,7 @@ def gestureTrack(tipids,marks):
 
 
 def main():
-    SOS("Hi,Team Daksh...Safety Systems are Now active","+919431610647")
+    SOS("Hi,XYZ...Safety Systems are Now active","+91*******") # second argument is mobile no. on which you want to send message
     x = [465,450,425,400,390,376,360,330,315,281,269]
     y = [25,30,35,40,45,50,55,60,65,70,75]
     ThresValue = 35  #the min distace acceptable to be a active driver
@@ -167,10 +167,10 @@ def main():
                         # 0 if it is folded 1 if it is open
             if tips[3] == 0 and tips[4] == 0 and tips[0] == 1:
                 print("Technical failure")
-                SOS(msg1,"+919431610647")
+                SOS(msg1,"+91**********") #second argument is mobile no. on which you want to send message
             if tips[0] == 0 and tips[3] == 1 and tips[4] == 1:
                 print("health issue")
-                SOS(msg2,"+919431610647")
+                SOS(msg2,"+91**********") #second argument is mobile no. on which you want to send message
         
 
         if len(points) != 0:  
@@ -192,8 +192,8 @@ def main():
                 print("active driver")
                 print("  ")
             else:
-                print("driver dead")
-                SOS(msg,"+919431610647")
+                print("driver unconscious")
+                SOS(msg,"+91**********") #second argument is mobile no. on which you want to send message
         else:
             print("No driver Detetcted")
         # showfps(frame)
