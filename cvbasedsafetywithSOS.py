@@ -13,7 +13,7 @@ number = "+***********" # from which msg will be send , provided by twilio
 ################################################
 ##########
 #SOS MSG # your custom msg
-msg = "HELLO,TEAM DAKSH, Your Driver is Dead. Kindly Collect the body"
+msg = "HELLO,XYZ, Your Driver is Unconsious. Kindly report"
 msg1 = "Health issue"
 msg2 = "technical failure"
 class handTracker():
