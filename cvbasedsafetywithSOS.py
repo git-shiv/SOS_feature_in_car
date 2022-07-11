@@ -6,13 +6,13 @@ import math
 import numpy as np
 from twilio.rest import Client
 #################################################
-#Credentials for SOS
-account_sid = "AC8a7a445be7537fab034825c8fc387df7"
-auth_token = "6bcadd4b51ab15b3d37ade2893c44420"
-number = "+19897188625"
+#Credentials for SOS### login to twilio and get your own credentials and paste here
+account_sid = "***********************************"
+auth_token = "*********************************"
+number = "+***********" # from which msg will be send , provided by twilio
 ################################################
 ##########
-#SOS MSG
+#SOS MSG # your custom msg
 msg = "HELLO,TEAM DAKSH, Your Driver is Dead. Kindly Collect the body"
 msg1 = "Health issue"
 msg2 = "technical failure"
