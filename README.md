@@ -18,6 +18,10 @@ Hardware required:
 
 Software required:
   1. Raspbian OS   #obviously 
-  2. Twilight
+  2. Twilio for message service
+  3. opencv
+  4. mediapipe and dependent library.
+  
+  
    
    
